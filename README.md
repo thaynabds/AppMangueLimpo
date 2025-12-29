@@ -1,11 +1,10 @@
-# SoluçãoWebMangueLimpo
-Projeto de criação de protótipo de aplicativo para Limpeza e preservação do Mangue através da conscientização
-# 🦀 Manguecity: A Jornada Gamificada por Recife
+# 🦀 SoluçãoWebMangueLimpo: Manguecity
 
 ![Status do Projeto](https://img.shields.io/badge/status-em_desenvolvimento-yellow)
-![Plataforma](https://img.shields.io/badge/plataforma-Mobile-blue)
+![Plataforma](https://img.shields.io/badge/plataforma-Web-green)
+![Público](https://img.shields.io/badge/público-Infantil-orange)
 
-O **Manguecity** é uma solução web que transforma aprender a importãncia do Mangue em uma experiência épica e gamificada. Inspirado pelo movimento Manguebeat, a solução Web ensina crianças, oferecendo desafios, recompensas e uma imersão profunda na identidade pernambucana e a importância do Mangue.
+O **Manguecity** é uma solução web educativa e gamificada criada para ensinar crianças sobre a importância vital dos manguezais. Através de uma interface lúdica inspirada no movimento Manguebeat, transformamos o aprendizado sobre preservação e limpeza ambiental em uma aventura interativa.
 
 [[Acesse o Design no Figma]](https://www.figma.com/make/T1T2dKOrnz9WOFKcreg6B9/Manguecity-Gamified-App-Design?fullscreen=1&t=xCSdFKIpTtqp6vcE-1)
 
@@ -50,93 +49,96 @@ Desenvolvido com ❤️ e muito Manguebeat.
 
 Como o link do Figma foca na interface, preparei um código inicial em **React Native** que reflete a estrutura de uma das telas principais de gamificação do Manguecity.
 
+Desenvolvido com ❤️ para proteger nossos mangues e educar as próximas gerações.
 
 
-### Arquivo: `App.js` (Estrutura Principal)
+---
 
-```javascript
+## 💻 Código Base da Solução Web (React)
+
+Este código foi adaptado para rodar no **Navegador (Web)**, usando elementos mais visuais e divertidos para crianças.
+
+### Arquivo: `App.js` (Interface Educativa)
+
+```jsx
 import React, { useState } from 'react';
-import { StyleSheet, Text, View, ScrollView, TouchableOpacity, SafeAreaView } from 'react-native';
-import { Trophy, MapPin, User, Star } from 'lucide-react-native';
+import { Trophy, Trees, Trash2, Star, Award, Map } from 'lucide-react';
 
-export default function App() {
-  const [xp, setXp] = useState(450);
+export default function ManguecityWeb() {
+  const [ecoPontos, setEcoPontos] = useState(120);
 
   return (
-    <SafeAreaView style={styles.container}>
-      <ScrollView contentContainerStyle={styles.scrollContent}>
-        
-        {/* Header - Perfil do Usuário */}
-        <View style={styles.header}>
-          <View style={styles.profileBadge}>
-            <User color="#FFF" size={32} />
-          </View>
-          <View>
-            <Text style={styles.greeting}>Olá, Explorador!</Text>
-            <Text style={styles.level}>Nível 12 - Mestre do Cais</Text>
-          </View>
-        </View>
+    <div style={styles.container}>
+      {/* Cabeçalho Lúdico */}
+      <header style={styles.header}>
+        <div style={styles.logoArea}>
+          <Trees color="#2ecc71" size={40} />
+          <h1 style={styles.title}>Manguecity Kids</h1>
+        </div>
+        <div style={styles.scoreBoard}>
+          <Star color="#f1c40f" fill="#f1c40f" />
+          <span style={styles.scoreText}>{ecoPontos} Eco-Pontos</span>
+        </div>
+      </header>
 
-        {/* Barra de Progresso XP */}
-        <View style={styles.xpCard}>
-          <View style={styles.xpInfo}>
-            <Text style={styles.xpText}>XP Atual: {xp}/1000</Text>
-            <Star color="#FFD700" size={20} fill="#FFD700" />
-          </View>
-          <View style={styles.progressBarBg}>
-            <View style={[styles.progressBarFill, { width: '45%' }]} />
-          </View>
-        </View>
+      <main style={styles.main}>
+        <section style={styles.welcomeSection}>
+          <h2>Olá, Pequeno Protetor! 👋</h2>
+          <p>O mangue precisa da sua ajuda. Vamos aprender e brincar?</p>
+        </section>
 
-        {/* Missões Ativas */}
-        <Text style={styles.sectionTitle}>Missões no Mangue</Text>
-        
-        <TouchableOpacity style={styles.missionCard}>
-          <MapPin color="#e67e22" size={24} />
-          <View style={styles.missionDetails}>
-            <Text style={styles.missionTitle}>Marco Zero</Text>
-            <Text style={styles.missionSub}>Faça check-in para ganhar 50 XP</Text>
-          </View>
-          <Trophy color="#bdc3c7" size={20} />
-        </TouchableOpacity>
+        {/* Card de Missão em Destaque */}
+        <div style={styles.cardDestaque}>
+          <div style={styles.cardIcon}>
+            <Trash2 color="#FFF" size={48} />
+          </div>
+          <div style={styles.cardContent}>
+            <h3>Operação Mangue Limpo</h3>
+            <p>Ajude o caranguejo a limpar a lama e ganhe 50 pontos!</p>
+            <button style={styles.buttonAction} onClick={() => setEcoPontos(ecoPontos + 50)}>
+              Começar Aventura!
+            </button>
+          </div>
+        </div>
 
-        <TouchableOpacity style={styles.missionCard}>
-          <MapPin color="#2ecc71" size={24} />
-          <View style={styles.missionDetails}>
-            <Text style={styles.missionTitle}>Paço do Frevo</Text>
-            <Text style={styles.missionSub}>Complete o Quiz Cultural</Text>
-          </View>
-          <Trophy color="#bdc3c7" size={20} />
-        </TouchableOpacity>
+        {/* Grade de Atividades */}
+        <div style={styles.grid}>
+          <div style={styles.miniCard}>
+            <Map color="#e67e22" />
+            <span>Explorar Mapa</span>
+          </div>
+          <div style={styles.miniCard}>
+            <Award color="#9b59b6" />
+            <span>Minhas Medalhas</span>
+          </div>
+          <div style={styles.miniCard}>
+            <Trophy color="#f1c40f" />
+            <span>Ranking</span>
+          </div>
+        </div>
+      </main>
 
-      </ScrollView>
-
-      {/* Menu Inferior */}
-      <View style={styles.tabBar}>
-        <TouchableOpacity style={styles.tabItem}><MapPin color="#FFF" /></TouchableOpacity>
-        <TouchableOpacity style={styles.tabItem}><Trophy color="#FFF" /></TouchableOpacity>
-        <TouchableOpacity style={styles.tabItem}><User color="#FFF" /></TouchableOpacity>
-      </View>
-    </SafeAreaView>
+      <footer style={styles.footer}>
+        <p>Aprender sobre o mangue é massa! 🦀✨</p>
+      </footer>
+    </div>
   );
 }
 
-const styles = StyleSheet.create({
-  container: { flex: 1, backgroundColor: '#f4f7f6' },
-  scrollContent: { padding: 20 },
-  header: { flexDirection: 'row', alignItems: 'center', marginBottom: 30, marginTop: 20 },
-  profileBadge: { width: 60, height: 60, borderRadius: 30, backgroundColor: '#2c3e50', justifyContent: 'center', alignItems: 'center', marginRight: 15 },
-  greeting: { fontSize: 18, fontWeight: 'bold', color: '#34495e' },
-  level: { fontSize: 14, color: '#7f8c8d' },
-  xpCard: { backgroundColor: '#FFF', padding: 20, borderRadius: 15, elevation: 4, marginBottom: 30 },
-  xpInfo: { flexDirection: 'row', justifyContent: 'space-between', marginBottom: 10 },
-  xpText: { fontWeight: 'bold', color: '#2c3e50' },
-  progressBarBg: { height: 10, backgroundColor: '#ecf0f1', borderRadius: 5 },
-  progressBarFill: { height: 10, backgroundColor: '#e67e22', borderRadius: 5 },
-  sectionTitle: { fontSize: 20, fontWeight: 'bold', color: '#2c3e50', marginBottom: 15 },
-  missionCard: { backgroundColor: '#FFF', padding: 15, borderRadius: 12, flexDirection: 'row', alignItems: 'center', marginBottom: 12, borderLeftWidth: 5, borderLeftColor: '#e67e22' },
-  missionDetails: { flex: 1, marginLeft: 15 },
-  missionTitle: { fontSize: 16, fontWeight: 'bold' },
-  missionSub: { fontSize: 12, color: '#95a5a6' },
-  tabBar: { height: 60, backgroundColor: '#2c3e50', flexDirection: 'row', justifyContent: 'space-around', alignItems: 'center', borderTopLeftRadius: 20, borderTopRightRadius: 20 }
-});
+const styles = {
+  container: { fontFamily: 'Arial, sans-serif', backgroundColor: '#e8f5e9', minHeight: '100vh', padding: '20px' },
+  header: { display: 'flex', justifyContent: 'space-between', alignItems: 'center', backgroundColor: '#FFF', padding: '15px 30px', borderRadius: '50px', boxShadow: '0 4px 15px rgba(0,0,0,0.1)' },
+  logoArea: { display: 'flex', alignItems: 'center', gap: '10px' },
+  title: { color: '#2d3436', fontSize: '24px', margin: 0 },
+  scoreBoard: { display: 'flex', alignItems: 'center', gap: '8px', background: '#34495e', padding: '10px 20px', borderRadius: '30px', color: '#FFF' },
+  scoreText: { fontWeight: 'bold' },
+  main: { maxWidth: '800px', margin: '40px auto' },
+  welcomeSection: { textAlign: 'center', marginBottom: '40px' },
+  cardDestaque: { display: 'flex', backgroundColor: '#27ae60', borderRadius: '24px', padding: '30px', color: '#FFF', alignItems: 'center', gap: '20px', boxShadow: '0 10px 20px rgba(39, 174, 96, 0.3)' },
+  cardIcon: { backgroundColor: 'rgba(255,255,255,0.2)', padding: '20px', borderRadius: '20px' },
+  cardContent: { flex: 1 },
+  buttonAction: { backgroundColor: '#f1c40f', border: 'none', padding: '12px 25px', borderRadius: '12px', fontWeight: 'bold', cursor: 'pointer', marginTop: '10px', fontSize: '16px' },
+  grid: { display: 'grid', gridTemplateColumns: '1fr 1fr 1fr', gap: '20px', marginTop: '30px' },
+  miniCard: { backgroundColor: '#FFF', padding: '20px', borderRadius: '20px', display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '10px', fontWeight: 'bold', color: '#34495e', cursor: 'pointer' },
+  footer: { textAlign: 'center', marginTop: '50px', color: '#7f8c8d' }
+};
