@@ -95,7 +95,7 @@ Ela conecta conhecimento e ação, mostrando às crianças, de forma lúdica e i
 “Oferecemos jogos educativos, fórum para alunos, ranking da turma e painel do professor.”
 
 ### Diferenciais
-![Slide 13](https://github.com/thaynabds/AppMangueLimpo/blob/main/12.png?raw=true)
+![Slide 13](https://raw.githubusercontent.com/thaynabds/AppMangueLimpo/refs/heads/main/13.png)
 
 O aplicativo possui funcionalidades de jogos educativos, quiz, fórum exclusivo para usuários, ranking e sistema de medalhas e troféus para gerar engajamento, além de painel do professor para moderar e liberar o progresso dos alunos. Além disso, trazemos diferenciais em comparação com concorrentes, pois o MangueCity é um jogo educativo com personalização de personagem, fórum exclusivo para alunos e controle pedagógico completo.
 
