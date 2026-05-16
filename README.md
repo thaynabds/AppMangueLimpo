@@ -15,7 +15,7 @@
 
 MangueCity é uma solução web educativa e gamificada criada para ensinar crianças sobre a importância vital dos manguezais. A proposta transforma o aprendizado sobre preservação e limpeza ambiental em uma experiência interativa, lúdica e pedagógica, conectando educação, cultura local e consciência socioambiental.
 
-![Capa do Projeto](https://raw.githubusercontent.com/thaynabds/AppMangueLimpo/refs/heads/main/1.png)
+![Capa do Projeto](https://github.com/thaynabds/AppMangueLimpo/blob/main/1.png?raw=true)
 ## 🌿 Sobre o Projeto
 
 MangueCity é uma plataforma web educativa e gamificada desenvolvida para aproximar crianças do universo dos manguezais e da preservação ambiental. A proposta une tecnologia, ludicidade e educação para estimular o aprendizado sobre um dos ecossistemas mais importantes da cidade.
@@ -25,12 +25,12 @@ MangueCity é uma plataforma web educativa e gamificada desenvolvida para aproxi
 ---
 
 ### Participação e Parque das Graças
-![Slide 2](https://raw.githubusercontent.com/thaynabds/AppMangueLimpo/refs/heads/main/2.png)
+![Slide 2](https://github.com/thaynabds/AppMangueLimpo/blob/main/2.png?raw=true)
 
 “Durante a construção do Parque das Graças, cerca de 100 árvores de mangue foram removidas. Essas árvores demoram de 14 a 20 anos para crescer totalmente.”
 
 ### Importância social
-![Slide 3](https://raw.githubusercontent.com/thaynabds/AppMangueLimpo/refs/heads/main/3.png)
+![Slide 3](https://github.com/thaynabds/AppMangueLimpo/blob/main/3.png?raw=true)
 
 Muitas pessoas tiram seu meio de subsistência do mangue, de pescadores a coletores de unha.
 
@@ -51,17 +51,17 @@ Além disso, contribuem para reduzir a vulnerabilidade da zona costeira às muda
 As árvores do mangue absorvem carbono por meio da fotossíntese, sendo o manguezal uma das biomassas que mais absorve carbono.
 
 ### Ameaças
-![Slide 7](https://raw.githubusercontent.com/thaynabds/AppMangueLimpo/refs/heads/main/7.png)
+![Slide 7](https://github.com/thaynabds/AppMangueLimpo/blob/main/7.png?raw=true)
 
 No entanto, o manguezal e suas espécies estão ameaçados por poluição e desmatamento.
 
 ### Biodiversidade
-![Slide 8](https://raw.githubusercontent.com/thaynabds/AppMangueLimpo/refs/heads/main/8.png)
+![Slide 8](https://github.com/thaynabds/AppMangueLimpo/blob/main/8.png?raw=true)
 
 Algumas espécies conhecidas que vivem no mangue são: peixe-boi, guaiamum gigante, garça e capivara.
 
 ### Perda ambiental
-![Slide 9](https://raw.githubusercontent.com/thaynabds/AppMangueLimpo/refs/heads/main/9.png)
+![Slide 9](https://raw.githubusercontent.com/thaynabds/AppMangueLimpo/refs/heads/main/6.png)
 ## 🌊 Cenário Atual
 
 Hoje o mangue está bastante prejudicado por causa da poluição urbana e do desmatamento.  
@@ -75,12 +75,12 @@ A falta de conhecimento da população sobre o papel ecológico essencial desse 
 Até 2025, tivemos uma perda de 20% do mangue na Região Metropolitana do Recife. Oito espécies que vivem ali estão em risco de extinção, e a falta de conscientização da população sobre sua importância, seus animais e sua biodiversidade, assim como a poluição urbana e o desmatamento, estão ameaçando a existência do mangue hoje.
 
 ### Referência cultural
-![Slide 10](https://raw.githubusercontent.com/thaynabds/AppMangueLimpo/refs/heads/main/10.png)
+![Slide 10](https://github.com/thaynabds/AppMangueLimpo/blob/main/10.png?raw=true)
 
 Um dos artistas que mais falou sobre o mangue e trouxe visibilidade para esse bioma tão esquecido pela mídia foi Chico Science.
 
 ### Solução MangueCity
-![Slide 11](https://raw.githubusercontent.com/thaynabds/AppMangueLimpo/refs/heads/main/11.png)
+![Slide 11](https://github.com/thaynabds/AppMangueLimpo/blob/main/11.png?raw=true)
 ## 💡 A Solução
 
 Visando aproximar as pessoas do mangue e tornar seu valor mais compreensível, criamos o MangueCity.
@@ -90,12 +90,12 @@ Ela conecta conhecimento e ação, mostrando às crianças, de forma lúdica e i
 “Entre o caos e a lama, trazemos uma solução: o MangueCity é uma plataforma educacional gamificada para crianças de 6 a 10 anos.”
 
 ### Funcionalidades
-![Slide 12](https://raw.githubusercontent.com/thaynabds/AppMangueLimpo/refs/heads/main/12.png)
+![Slide 12](https://github.com/thaynabds/AppMangueLimpo/blob/main/12.png?raw=true)
 
 “Oferecemos jogos educativos, fórum para alunos, ranking da turma e painel do professor.”
 
 ### Diferenciais
-![Slide 13](https://raw.githubusercontent.com/thaynabds/AppMangueLimpo/refs/heads/main/13.png)
+![Slide 13](https://github.com/thaynabds/AppMangueLimpo/blob/main/12.png?raw=true)
 
 O aplicativo possui funcionalidades de jogos educativos, quiz, fórum exclusivo para usuários, ranking e sistema de medalhas e troféus para gerar engajamento, além de painel do professor para moderar e liberar o progresso dos alunos. Além disso, trazemos diferenciais em comparação com concorrentes, pois o MangueCity é um jogo educativo com personalização de personagem, fórum exclusivo para alunos e controle pedagógico completo.
 
@@ -111,7 +111,7 @@ Microtransações opcionais dentro do jogo, permitindo personalizações e itens
 
 
 ### Objetivos de Desenvolvimento Sustentável
-![Slide 15](https://raw.githubusercontent.com/thaynabds/AppMangueLimpo/refs/heads/main/15.png)
+![Slide 15](https://github.com/thaynabds/AppMangueLimpo/blob/main/15.png?raw=true)
 
 O MangueCity atende a 6 Objetivos de Desenvolvimento Sustentável.
 ## 🌍 Impactos ESG e ODS
@@ -131,7 +131,7 @@ O MangueCity contribui para os seguintes Objetivos de Desenvolvimento Sustentáv
 - **Econômico:** diminui custos futuros com limpeza e recuperação ambiental, enquanto estimula soluções educacionais sustentáveis. 
 
 ### Squad Mangue Limpo
-![Slide 16](https://raw.githubusercontent.com/thaynabds/AppMangueLimpo/refs/heads/main/16.png)
+![Slide 16](https://github.com/thaynabds/AppMangueLimpo/blob/main/16.png?raw=true)
 
 “Reduzimos danos ambientais, fortalecemos a educação e diminuímos custos futuros com recuperação.”  
 “Transformar o futuro começa pela educação das crianças – e o MangueCity está aqui para fazer isso acontecer.”
@@ -148,7 +148,7 @@ O MangueCity contribui para os seguintes Objetivos de Desenvolvimento Sustentáv
 
 
 ### Protótipo e QR Code
-![Slide 17](https://raw.githubusercontent.com/thaynabds/AppMangueLimpo/refs/heads/main/17.png)
+![Slide 17](https://github.com/thaynabds/AppMangueLimpo/blob/main/17.png?raw=true)
 
 **MangueCity — “O reflexo do futuro está nas raízes que escolhemos proteger.”**
 ## ✨ Funcionalidades
