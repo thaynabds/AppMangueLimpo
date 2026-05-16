@@ -61,7 +61,7 @@ No entanto, o manguezal e suas espécies estão ameaçados por poluição e desm
 Algumas espécies conhecidas que vivem no mangue são: peixe-boi, guaiamum gigante, garça e capivara.
 
 ### Perda ambiental
-![Slide 9](https://raw.githubusercontent.com/thaynabds/AppMangueLimpo/refs/heads/main/6.png)
+![Slide 9](https://github.com/thaynabds/AppMangueLimpo/blob/main/17.png?raw=true)
 ## 🌊 Cenário Atual
 
 Hoje o mangue está bastante prejudicado por causa da poluição urbana e do desmatamento.  
