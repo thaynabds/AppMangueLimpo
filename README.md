@@ -1,3 +1,14 @@
+<div align="center">
+
+## 🌐 Idioma / Language
+
+[![Português](https://img.shields.io/badge/🇧🇷_Português-selecionado-2ea44f?style=for-the-badge)](./README.md)
+[![English](https://img.shields.io/badge/🇺🇸_English-click_here-lightgrey?style=for-the-badge)](./README.en.md)
+
+</div>
+
+---
+
 # 🦀 MangueCity — Solução Web Mangue Limpo
 
 ## 👥 Squad 35 — Kick Off Porto Digital 2025.2
@@ -256,9 +267,9 @@ const styles = {
 
 ---
 
-## 📞 Contact 📬
+## 📞 Contato 📬
 
-Want to know more about the project or get in touch? 🤝
+Quer saber mais sobre o projeto ou entrar em contato? 🤝
 
 <div align="center">
 
@@ -272,20 +283,20 @@ Want to know more about the project or get in touch? 🤝
 
 </div>
 
-📧 **Email:** [thaynabdstec@gmail.com](mailto:thaynabdstec@gmail.com) ✉️
+📧 **E-mail:** [thaynabdstec@gmail.com](mailto:thaynabdstec@gmail.com) ✉️
 
-📱 **Phone:** +55 (81) 97912-6121 📞
+📱 **Telefone:** +55 (81) 97912-6121 📞
 
 ---
 
 <div align="center">
 
 ### 👤 Thayná Batista da Silva
-**Scrum Master • Product Designer • Requirements Analyst** 💼
+**Scrum Master • Product Designer • Analista de Requisitos** 💼
 
-Senac Recife-PE Faculty | Systems Analysis and Development 🎓
+Faculdade Senac Recife-PE | Análise e Desenvolvimento de Sistemas 🎓
 
-![TEC Card Thayná](https://github.com/thaynabds/AppMedSmart/blob/main/CapaCartão%20ThaynáBDSTEC.png)
+![Cartão TEC Thayná](https://github.com/thaynabds/AppMedSmart/blob/main/CapaCartão%20ThaynáBDSTEC.png)
 
 </div>
 
@@ -293,7 +304,7 @@ Senac Recife-PE Faculty | Systems Analysis and Development 🎓
 
 <div align="center">
 
-**Thank you for visiting! ⭐ Don't forget to star the project if you liked it!** 🌟
+**Obrigado pela visita! ⭐ Não se esqueça de curtir o projeto se gostou!** 🌟
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://br.linkedin.com/in/thaynabds)
 [![Instagram](https://img.shields.io/badge/Instagram-Follow-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/thaynabdstec/)
