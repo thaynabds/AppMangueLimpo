@@ -27,6 +27,13 @@
 MangueCity é uma solução web educativa e gamificada criada para ensinar crianças sobre a importância vital dos manguezais. A proposta transforma o aprendizado sobre preservação e limpeza ambiental em uma experiência interativa, lúdica e pedagógica, conectando educação, cultura local e consciência socioambiental.
 
 ![Capa do Projeto](https://github.com/thaynabds/AppMangueLimpo/blob/main/1.png?raw=true)
+## 👀 Como ver o projeto
+
+O MangueCity foi entregue como protótipo navegável e pitch, sem código para instalar.
+
+1. **Protótipo:** abra https://www.figma.com/make/T1T2dKOrnz9WOFKcreg6B9 no navegador e navegue pelas telas de aluno, professor e moderação.
+2. **Pitch:** os 17 slides estão neste README, a partir de "Sobre o Projeto", e nos arquivos `1.png` a `17.png`.
+
 ## 🌿 Sobre o Projeto
 
 MangueCity é uma plataforma web educativa e gamificada desenvolvida para aproximar crianças do universo dos manguezais e da preservação ambiental. A proposta une tecnologia, ludicidade e educação para estimular o aprendizado sobre um dos ecossistemas mais importantes da cidade.

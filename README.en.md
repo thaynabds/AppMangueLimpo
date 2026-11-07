@@ -27,6 +27,13 @@
 MangueCity is an educational, gamified web solution created to teach children about the vital importance of mangroves. The proposal turns learning about environmental preservation and cleanup into an interactive, playful, and pedagogical experience, connecting education, local culture, and socio-environmental awareness.
 
 ![Project Cover](https://github.com/thaynabds/AppMangueLimpo/blob/main/1.png?raw=true)
+## 👀 How to view the project
+
+MangueCity was delivered as a clickable prototype and a pitch, with no code to install.
+
+1. **Prototype:** open https://www.figma.com/make/T1T2dKOrnz9WOFKcreg6B9 in your browser and browse the student, teacher and moderation screens.
+2. **Pitch:** the 17 slides are in this README, starting at "About the Project", and in the files `1.png` to `17.png`.
+
 ## 🌿 About the Project
 
 MangueCity is an educational, gamified web platform developed to bring children closer to the world of mangroves and environmental preservation. The proposal combines technology, playfulness, and education to encourage learning about one of the city's most important ecosystems.
